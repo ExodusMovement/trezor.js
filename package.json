@@ -1,9 +1,12 @@
 {
-  "name": "trezor.js",
+  "name": "@exodus/trezor.js",
   "version": "6.19.4",
   "author": "TREZOR <info@trezor.io>",
-  "homepage": "https://github.com/trezor/trezor.js",
+  "homepage": "https://github.com/ExodusMovement/trezor.js",
   "description": "High-level Javascript API for Bitcoin Trezor",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "license": "LGPL-3.0",
   "scripts": {
     "lint": "eslint ./",
@@ -14,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/trezor/trezor.js.git"
+    "url": "git://github.com/ExodusMovement/trezor.js.git"
   },
   "bugs": {
-    "url": "https://github.com/trezor/trezor.js/issues"
+    "url": "https://github.com/ExodusMovement/trezor.js/issues"
   },
   "keywords": [
     "trezor",
@@ -69,8 +72,5 @@
     "trezor-link": "1.6.0",
     "unorm": "^1.3.3",
     "whatwg-fetch": "0.11.0"
-  },
-  "engines": {
-    "node": ">=6.0.0"
   }
 }
