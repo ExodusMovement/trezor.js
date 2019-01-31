@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@exodus/trezor-link@1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@exodus/trezor-link/-/trezor-link-1.6.1.tgz#95e5e67cea52b9f49e7e957d28711d2db3cba390"
+  integrity sha512-i7oA3HxgwYXXDH5jSW9eUh4abe0ViSoXwSawAXiKGm5PQ8DbrrVjynrfGWxw+ziTz2R+SPrgRQh4+vLBDefKcA==
+  dependencies:
+    bigi "^1.4.1"
+    ecurve "^1.0.3"
+    json-stable-stringify "^1.0.1"
+    node-fetch "^1.6.0"
+    object.values "^1.0.3"
+    protobufjs-old-fixed-webpack "3.8.5"
+    semver-compare "^1.0.0"
+    whatwg-fetch "0.11.0"
+
 "@types/node@^10.11.7":
   version "10.12.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
@@ -2714,19 +2728,6 @@ tough-cookie@~2.3.0:
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a"
   dependencies:
     punycode "^1.4.1"
-
-trezor-link@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/trezor-link/-/trezor-link-1.6.0.tgz#d79fec3e6ecf57c74c11ffbe37ebbd9118a91826"
-  dependencies:
-    bigi "^1.4.1"
-    ecurve "^1.0.3"
-    json-stable-stringify "^1.0.1"
-    node-fetch "^1.6.0"
-    object.values "^1.0.3"
-    protobufjs-old-fixed-webpack "3.8.5"
-    semver-compare "^1.0.0"
-    whatwg-fetch "0.11.0"
 
 trim-right@^1.0.1:
   version "1.0.1"

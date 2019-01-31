@@ -3,7 +3,7 @@
 
 import 'unorm';
 
-import link from 'trezor-link';
+import link from '@exodus/trezor-link';
 import DeviceList from './device-list';
 
 const {BridgeV2} = link;
