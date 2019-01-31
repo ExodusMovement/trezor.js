@@ -1,2 +1,5 @@
 dist/
 src/
+doc_images/
+.travis.yml
+example/
